@@ -1,0 +1,313 @@
+Run,Setup,Task,Group,Resolved (1 = yes),Minutes,Tool calls
+1,Grep only,rich_3930,Multi-file,0,3.94,10
+1,Graph + grep,rich_3930,Multi-file,0,4.0,14
+1,Graph + grep,rich_3535,Multi-file,0,4.0,15
+1,Grep only,rich_3535,Multi-file,0,2.59,13
+1,Grep only,fastapi_14448,Multi-file,0,4.0,12
+1,Graph + grep,fastapi_14448,Multi-file,0,4.0,8
+1,Graph + grep,fastapi_9753,Single-file,1,4.47,20
+1,Grep only,fastapi_9753,Single-file,0,4.0,18
+1,Grep only,rich_3518,Single-file,1,2.42,20
+1,Graph + grep,rich_3518,Single-file,1,2.58,22
+1,Graph + grep,rich_3777,Multi-file,0,4.0,25
+1,Grep only,rich_3777,Multi-file,0,4.0,39
+1,Grep only,rich_3676,Multi-file,0,3.7,14
+1,Graph + grep,rich_3676,Multi-file,1,3.92,13
+1,Graph + grep,rich_2725,Single-file,1,2.83,17
+1,Grep only,rich_2725,Single-file,1,3.59,21
+1,Grep only,fastapi_14306,Multi-file,0,4.0,28
+1,Graph + grep,fastapi_14306,Multi-file,0,4.0,31
+1,Graph + grep,fastapi_15800,Multi-file,0,4.0,34
+1,Grep only,fastapi_15800,Multi-file,0,4.0,18
+1,Grep only,fastapi_14479,Single-file,0,2.16,11
+1,Graph + grep,fastapi_14479,Single-file,0,1.86,10
+1,Graph + grep,rich_4070,Multi-file,0,4.0,28
+1,Grep only,rich_4070,Multi-file,0,4.0,21
+1,Grep only,fastapi_14873,Single-file,0,4.0,26
+1,Graph + grep,fastapi_14873,Single-file,0,4.0,31
+1,Graph + grep,fastapi_14372,Multi-file,1,3.86,48
+1,Grep only,fastapi_14372,Multi-file,1,2.24,24
+1,Grep only,fastapi_15280,Single-file,0,3.4,18
+1,Graph + grep,fastapi_15280,Single-file,0,4.0,32
+1,Graph + grep,fastapi_15588,Single-file,0,3.37,16
+1,Grep only,fastapi_15588,Single-file,0,2.97,16
+1,Grep only,rich_3454,Single-file,1,3.38,16
+1,Graph + grep,rich_3454,Single-file,1,2.41,18
+1,Graph + grep,rich_3471,Single-file,0,4.0,18
+1,Grep only,rich_3471,Single-file,0,4.0,17
+1,Grep only,rich_3180,Multi-file,0,4.0,3
+1,Graph + grep,rich_3180,Multi-file,0,4.0,10
+1,Graph + grep,rich_3067,Single-file,1,3.87,26
+1,Grep only,rich_3067,Single-file,1,1.48,11
+1,Grep only,fastapi_14419,Multi-file,0,4.0,10
+1,Graph + grep,fastapi_14419,Multi-file,0,4.0,29
+1,Graph + grep,rich_3675,Multi-file,0,2.08,15
+1,Grep only,rich_3675,Multi-file,0,4.0,32
+1,Grep only,fastapi_14463,Single-file,1,1.88,10
+1,Graph + grep,fastapi_14463,Single-file,1,1.81,13
+1,Graph + grep,rich_3006,Single-file,1,1.04,11
+1,Grep only,rich_3006,Single-file,1,1.19,13
+1,Grep only,fastapi_13537,Single-file,1,2.91,12
+1,Graph + grep,fastapi_13537,Single-file,1,3.85,15
+1,Graph + grep,fastapi_14986,Multi-file,0,3.99,16
+1,Grep only,fastapi_14986,Multi-file,0,4.0,22
+1,"Graph + grep, prompted",rich_3930,Multi-file,0,4.0,17
+1,"Graph + grep, prompted",rich_3535,Multi-file,0,4.0,13
+1,"Graph + grep, prompted",fastapi_14448,Multi-file,0,4.0,6
+1,"Graph + grep, prompted",fastapi_9753,Single-file,0,4.0,18
+1,"Graph + grep, prompted",rich_3518,Single-file,1,1.72,15
+1,"Graph + grep, prompted",rich_3777,Multi-file,0,4.0,29
+1,"Graph + grep, prompted",rich_3676,Multi-file,0,2.51,23
+1,"Graph + grep, prompted",rich_2725,Single-file,1,3.12,20
+1,"Graph + grep, prompted",fastapi_14306,Multi-file,0,4.0,30
+1,"Graph + grep, prompted",fastapi_15800,Multi-file,0,4.0,29
+1,"Graph + grep, prompted",fastapi_14479,Single-file,0,1.69,16
+1,"Graph + grep, prompted",rich_4070,Multi-file,0,4.0,27
+1,"Graph + grep, prompted",fastapi_14873,Single-file,0,4.0,36
+1,"Graph + grep, prompted",fastapi_14372,Multi-file,1,3.52,28
+1,"Graph + grep, prompted",fastapi_15280,Single-file,0,4.0,27
+1,"Graph + grep, prompted",fastapi_15588,Single-file,0,2.85,12
+1,"Graph + grep, prompted",rich_3454,Single-file,0,4.0,9
+1,"Graph + grep, prompted",rich_3471,Single-file,0,4.0,28
+1,"Graph + grep, prompted",rich_3180,Multi-file,0,4.0,7
+1,"Graph + grep, prompted",rich_3067,Single-file,1,2.52,20
+1,"Graph + grep, prompted",fastapi_14419,Multi-file,0,1.18,13
+1,"Graph + grep, prompted",rich_3675,Multi-file,0,3.41,20
+1,"Graph + grep, prompted",fastapi_14463,Single-file,1,2.3,16
+1,"Graph + grep, prompted",rich_3006,Single-file,1,1.01,11
+1,"Graph + grep, prompted",fastapi_13537,Single-file,1,3.52,14
+1,"Graph + grep, prompted",fastapi_14986,Multi-file,0,4.0,17
+1,Graph required,rich_3930,Multi-file,0,3.53,9
+1,Graph required,rich_3535,Multi-file,0,3.21,7
+1,Graph required,fastapi_14448,Multi-file,0,4.0,10
+1,Graph required,fastapi_9753,Single-file,0,4.0,23
+1,Graph required,rich_3518,Single-file,1,3.75,20
+1,Graph required,rich_3777,Multi-file,1,3.99,34
+1,Graph required,rich_3676,Multi-file,0,4.0,26
+1,Graph required,rich_2725,Single-file,0,4.0,20
+1,Graph required,fastapi_14306,Multi-file,0,4.0,26
+1,Graph required,fastapi_15800,Multi-file,0,4.0,16
+1,Graph required,fastapi_14479,Single-file,0,1.76,12
+1,Graph required,rich_4070,Multi-file,0,4.0,33
+1,Graph required,fastapi_14873,Single-file,1,3.85,22
+1,Graph required,fastapi_14372,Multi-file,1,2.45,17
+1,Graph required,fastapi_15280,Single-file,0,2.28,15
+1,Graph required,fastapi_15588,Single-file,0,4.0,18
+1,Graph required,rich_3454,Single-file,1,2.29,16
+1,Graph required,rich_3471,Single-file,0,4.0,17
+1,Graph required,rich_3180,Multi-file,0,4.0,15
+1,Graph required,rich_3067,Single-file,1,3.9,28
+1,Graph required,fastapi_14419,Multi-file,0,4.0,22
+1,Graph required,rich_3675,Multi-file,0,2.92,22
+1,Graph required,fastapi_14463,Single-file,1,2.05,14
+1,Graph required,rich_3006,Single-file,1,2.57,22
+1,Graph required,fastapi_13537,Single-file,1,4.04,17
+1,Graph required,fastapi_14986,Multi-file,0,4.0,19
+2,Grep only,fastapi_14463,Single-file,1,1.89,12
+2,Graph + grep,fastapi_14463,Single-file,1,2.44,11
+2,"Graph + grep, prompted",fastapi_14463,Single-file,1,2.27,9
+2,"Graph + grep, prompted",rich_3518,Single-file,1,2.66,21
+2,Graph + grep,rich_3518,Single-file,1,1.79,12
+2,Grep only,rich_3518,Single-file,1,2.52,13
+2,Grep only,fastapi_9753,Single-file,1,3.97,29
+2,Graph + grep,fastapi_9753,Single-file,1,3.86,22
+2,"Graph + grep, prompted",fastapi_9753,Single-file,0,4.0,24
+2,"Graph + grep, prompted",rich_3675,Multi-file,0,2.53,19
+2,Graph + grep,rich_3675,Multi-file,0,4.0,32
+2,Grep only,rich_3675,Multi-file,0,3.31,28
+2,Grep only,rich_2725,Single-file,1,3.91,20
+2,Graph + grep,rich_2725,Single-file,1,2.06,14
+2,"Graph + grep, prompted",rich_2725,Single-file,1,3.85,18
+2,"Graph + grep, prompted",rich_3535,Multi-file,0,4.0,11
+2,Graph + grep,rich_3535,Multi-file,0,2.98,11
+2,Grep only,rich_3535,Multi-file,0,2.85,13
+2,Grep only,rich_3930,Multi-file,0,4.0,13
+2,Graph + grep,rich_3930,Multi-file,0,3.23,14
+2,"Graph + grep, prompted",rich_3930,Multi-file,0,4.0,13
+2,"Graph + grep, prompted",rich_3471,Single-file,0,4.0,15
+2,Graph + grep,rich_3471,Single-file,0,4.0,18
+2,Grep only,rich_3471,Single-file,0,4.0,15
+2,Grep only,fastapi_13537,Single-file,1,2.75,10
+2,Graph + grep,fastapi_13537,Single-file,1,3.15,13
+2,"Graph + grep, prompted",fastapi_13537,Single-file,1,3.15,12
+2,"Graph + grep, prompted",rich_3777,Multi-file,0,4.0,32
+2,Graph + grep,rich_3777,Multi-file,0,4.0,36
+2,Grep only,rich_3777,Multi-file,0,3.58,24
+2,Grep only,rich_3067,Single-file,1,1.35,13
+2,Graph + grep,rich_3067,Single-file,1,1.63,13
+2,"Graph + grep, prompted",rich_3067,Single-file,1,1.48,16
+2,"Graph + grep, prompted",fastapi_15800,Multi-file,0,4.0,20
+2,Graph + grep,fastapi_15800,Multi-file,0,4.0,31
+2,Grep only,fastapi_15800,Multi-file,0,3.71,30
+2,Grep only,rich_3676,Multi-file,1,3.58,19
+2,Graph + grep,rich_3676,Multi-file,0,4.0,16
+2,"Graph + grep, prompted",rich_3676,Multi-file,0,4.0,22
+2,"Graph + grep, prompted",fastapi_15280,Single-file,0,4.0,27
+2,Graph + grep,fastapi_15280,Single-file,0,4.0,47
+2,Grep only,fastapi_15280,Single-file,0,4.0,28
+2,Grep only,fastapi_14448,Multi-file,0,4.0,13
+2,Graph + grep,fastapi_14448,Multi-file,0,4.0,6
+2,"Graph + grep, prompted",fastapi_14448,Multi-file,0,4.0,7
+2,"Graph + grep, prompted",fastapi_14986,Multi-file,0,4.0,16
+2,Graph + grep,fastapi_14986,Multi-file,0,4.0,18
+2,Grep only,fastapi_14986,Multi-file,0,4.0,16
+2,Grep only,fastapi_14306,Multi-file,0,4.0,31
+2,Graph + grep,fastapi_14306,Multi-file,0,4.0,23
+2,"Graph + grep, prompted",fastapi_14306,Multi-file,0,4.0,40
+2,"Graph + grep, prompted",fastapi_14873,Single-file,0,4.0,33
+2,Graph + grep,fastapi_14873,Single-file,0,4.0,28
+2,Grep only,fastapi_14873,Single-file,1,3.67,24
+2,Grep only,fastapi_14419,Multi-file,0,4.0,15
+2,Graph + grep,fastapi_14419,Multi-file,0,4.0,11
+2,"Graph + grep, prompted",fastapi_14419,Multi-file,0,3.91,10
+2,"Graph + grep, prompted",rich_3454,Single-file,1,2.57,15
+2,Graph + grep,rich_3454,Single-file,1,2.14,10
+2,Grep only,rich_3454,Single-file,1,2.92,15
+2,Grep only,rich_3180,Multi-file,0,4.0,5
+2,Graph + grep,rich_3180,Multi-file,0,4.0,4
+2,"Graph + grep, prompted",rich_3180,Multi-file,0,4.0,4
+2,"Graph + grep, prompted",rich_3006,Single-file,1,1.24,12
+2,Graph + grep,rich_3006,Single-file,1,1.16,12
+2,Grep only,rich_3006,Single-file,1,1.01,12
+2,Grep only,fastapi_14372,Multi-file,1,2.23,15
+2,Graph + grep,fastapi_14372,Multi-file,1,3.9,38
+2,"Graph + grep, prompted",fastapi_14372,Multi-file,1,4.01,22
+2,"Graph + grep, prompted",fastapi_15588,Single-file,0,4.0,12
+2,Graph + grep,fastapi_15588,Single-file,0,3.74,18
+2,Grep only,fastapi_15588,Single-file,0,2.11,8
+2,Grep only,fastapi_14479,Single-file,0,1.79,12
+2,Graph + grep,fastapi_14479,Single-file,0,1.55,12
+2,"Graph + grep, prompted",fastapi_14479,Single-file,0,1.71,8
+2,"Graph + grep, prompted",rich_4070,Multi-file,0,4.0,28
+2,Graph + grep,rich_4070,Multi-file,0,4.0,32
+2,Grep only,rich_4070,Multi-file,0,4.0,35
+2,Graph required,fastapi_14463,Single-file,0,4.0,13
+2,Graph required,rich_3518,Single-file,1,1.56,16
+2,Graph required,fastapi_9753,Single-file,0,4.0,16
+2,Graph required,rich_3675,Multi-file,0,3.66,29
+2,Graph required,rich_2725,Single-file,1,3.97,24
+2,Graph required,rich_3535,Multi-file,0,3.04,7
+2,Graph required,rich_3930,Multi-file,0,4.0,7
+2,Graph required,rich_3471,Single-file,0,4.0,29
+2,Graph required,fastapi_13537,Single-file,0,4.0,16
+2,Graph required,rich_3777,Multi-file,0,4.0,27
+2,Graph required,rich_3067,Single-file,1,2.44,15
+2,Graph required,fastapi_15800,Multi-file,0,4.0,26
+2,Graph required,rich_3676,Multi-file,0,3.51,25
+2,Graph required,fastapi_15280,Single-file,0,4.0,30
+2,Graph required,fastapi_14448,Multi-file,0,4.0,7
+2,Graph required,fastapi_14986,Multi-file,0,3.87,16
+2,Graph required,fastapi_14306,Multi-file,0,4.0,27
+2,Graph required,fastapi_14873,Single-file,1,3.78,23
+2,Graph required,fastapi_14419,Multi-file,0,3.67,10
+2,Graph required,rich_3454,Single-file,1,2.45,12
+2,Graph required,rich_3180,Multi-file,0,4.0,9
+2,Graph required,rich_3006,Single-file,1,1.6,11
+2,Graph required,fastapi_14372,Multi-file,1,3.65,32
+2,Graph required,fastapi_15588,Single-file,0,2.67,12
+2,Graph required,fastapi_14479,Single-file,0,3.13,27
+2,Graph required,rich_4070,Multi-file,0,4.0,30
+3,Grep only,fastapi_9753,Single-file,1,3.86,23
+3,Graph + grep,fastapi_9753,Single-file,1,2.98,13
+3,"Graph + grep, prompted",fastapi_9753,Single-file,1,3.9,33
+3,"Graph + grep, prompted",fastapi_14306,Multi-file,0,4.0,28
+3,Graph + grep,fastapi_14306,Multi-file,0,4.0,18
+3,Grep only,fastapi_14306,Multi-file,0,4.0,36
+3,Grep only,rich_4070,Multi-file,0,4.0,33
+3,Graph + grep,rich_4070,Multi-file,0,4.0,44
+3,"Graph + grep, prompted",rich_4070,Multi-file,0,4.0,31
+3,"Graph + grep, prompted",rich_3006,Single-file,1,1.39,11
+3,Graph + grep,rich_3006,Single-file,1,2.27,20
+3,Grep only,rich_3006,Single-file,1,1.61,15
+3,Grep only,rich_3676,Multi-file,0,2.81,21
+3,Graph + grep,rich_3676,Multi-file,1,3.25,19
+3,"Graph + grep, prompted",rich_3676,Multi-file,0,2.75,11
+3,"Graph + grep, prompted",rich_3675,Multi-file,0,4.0,25
+3,Graph + grep,rich_3675,Multi-file,0,2.35,21
+3,Grep only,rich_3675,Multi-file,0,1.82,17
+3,Grep only,rich_2725,Single-file,1,2.84,17
+3,Graph + grep,rich_2725,Single-file,0,4.0,22
+3,"Graph + grep, prompted",rich_2725,Single-file,1,3.96,24
+3,"Graph + grep, prompted",fastapi_14463,Single-file,1,1.96,12
+3,Graph + grep,fastapi_14463,Single-file,1,2.63,12
+3,Grep only,fastapi_14463,Single-file,1,1.75,12
+3,Grep only,rich_3930,Multi-file,0,4.0,7
+3,Graph + grep,rich_3930,Multi-file,0,4.0,15
+3,"Graph + grep, prompted",rich_3930,Multi-file,0,4.0,11
+3,"Graph + grep, prompted",fastapi_14873,Single-file,1,3.82,25
+3,Graph + grep,fastapi_14873,Single-file,0,4.0,34
+3,Grep only,fastapi_14873,Single-file,1,3.59,18
+3,Grep only,fastapi_14448,Multi-file,0,4.0,11
+3,Graph + grep,fastapi_14448,Multi-file,0,4.0,4
+3,"Graph + grep, prompted",fastapi_14448,Multi-file,0,4.0,8
+3,"Graph + grep, prompted",rich_3518,Single-file,1,2.16,18
+3,Graph + grep,rich_3518,Single-file,1,2.14,15
+3,Grep only,rich_3518,Single-file,1,2.07,13
+3,Grep only,rich_3535,Multi-file,0,3.08,9
+3,Graph + grep,rich_3535,Multi-file,0,4.0,10
+3,"Graph + grep, prompted",rich_3535,Multi-file,0,2.32,18
+3,"Graph + grep, prompted",rich_3180,Multi-file,0,4.0,10
+3,Graph + grep,rich_3180,Multi-file,0,4.0,15
+3,Grep only,rich_3180,Multi-file,0,4.0,4
+3,Grep only,fastapi_14372,Multi-file,1,3.96,34
+3,Graph + grep,fastapi_14372,Multi-file,1,3.97,37
+3,"Graph + grep, prompted",fastapi_14372,Multi-file,1,3.99,32
+3,"Graph + grep, prompted",fastapi_15800,Multi-file,0,4.0,31
+3,Graph + grep,fastapi_15800,Multi-file,0,4.0,30
+3,Grep only,fastapi_15800,Multi-file,0,4.0,34
+3,Grep only,fastapi_13537,Single-file,1,4.02,13
+3,Graph + grep,fastapi_13537,Single-file,1,2.95,13
+3,"Graph + grep, prompted",fastapi_13537,Single-file,1,2.58,14
+3,"Graph + grep, prompted",fastapi_14986,Multi-file,0,3.0,22
+3,Graph + grep,fastapi_14986,Multi-file,0,4.0,21
+3,Grep only,fastapi_14986,Multi-file,0,4.0,17
+3,Grep only,fastapi_15280,Single-file,0,4.0,25
+3,Graph + grep,fastapi_15280,Single-file,0,4.0,39
+3,"Graph + grep, prompted",fastapi_15280,Single-file,0,4.0,37
+3,"Graph + grep, prompted",rich_3454,Single-file,1,1.66,13
+3,Graph + grep,rich_3454,Single-file,1,3.64,28
+3,Grep only,rich_3454,Single-file,1,2.43,16
+3,Grep only,rich_3067,Single-file,1,3.69,24
+3,Graph + grep,rich_3067,Single-file,1,1.5,14
+3,"Graph + grep, prompted",rich_3067,Single-file,1,3.7,21
+3,"Graph + grep, prompted",fastapi_14479,Single-file,0,2.29,19
+3,Graph + grep,fastapi_14479,Single-file,0,1.5,11
+3,Grep only,fastapi_14479,Single-file,0,2.0,12
+3,Grep only,fastapi_14419,Multi-file,0,4.0,25
+3,Graph + grep,fastapi_14419,Multi-file,0,4.0,19
+3,"Graph + grep, prompted",fastapi_14419,Multi-file,0,4.0,20
+3,"Graph + grep, prompted",rich_3777,Multi-file,1,3.87,45
+3,Graph + grep,rich_3777,Multi-file,1,3.99,30
+3,Grep only,rich_3777,Multi-file,0,4.0,29
+3,Grep only,fastapi_15588,Single-file,0,2.96,17
+3,Graph + grep,fastapi_15588,Single-file,0,4.01,27
+3,"Graph + grep, prompted",fastapi_15588,Single-file,0,4.0,12
+3,"Graph + grep, prompted",rich_3471,Single-file,0,4.0,21
+3,Graph + grep,rich_3471,Single-file,0,4.0,18
+3,Grep only,rich_3471,Single-file,0,4.0,19
+3,Graph required,fastapi_9753,Single-file,1,3.88,20
+3,Graph required,fastapi_14306,Multi-file,0,4.0,32
+3,Graph required,rich_4070,Multi-file,0,4.0,30
+3,Graph required,rich_3006,Single-file,1,2.87,21
+3,Graph required,rich_3676,Multi-file,1,3.94,23
+3,Graph required,rich_3675,Multi-file,0,2.22,17
+3,Graph required,rich_2725,Single-file,0,4.0,14
+3,Graph required,fastapi_14463,Single-file,1,2.92,18
+3,Graph required,rich_3930,Multi-file,0,2.62,9
+3,Graph required,fastapi_14873,Single-file,1,3.99,26
+3,Graph required,fastapi_14448,Multi-file,0,3.17,11
+3,Graph required,rich_3518,Single-file,1,1.97,13
+3,Graph required,rich_3535,Multi-file,0,4.0,25
+3,Graph required,rich_3180,Multi-file,0,4.0,12
+3,Graph required,fastapi_14372,Multi-file,1,3.35,35
+3,Graph required,fastapi_15800,Multi-file,0,4.0,26
+3,Graph required,fastapi_13537,Single-file,1,3.87,18
+3,Graph required,fastapi_14986,Multi-file,0,4.0,23
+3,Graph required,fastapi_15280,Single-file,0,4.0,36
+3,Graph required,rich_3454,Single-file,1,3.93,12
+3,Graph required,rich_3067,Single-file,1,2.33,23
+3,Graph required,fastapi_14479,Single-file,0,2.53,13
+3,Graph required,fastapi_14419,Multi-file,0,3.84,8
+3,Graph required,rich_3777,Multi-file,1,3.86,35
+3,Graph required,fastapi_15588,Single-file,0,4.0,21
+3,Graph required,rich_3471,Single-file,0,4.0,17

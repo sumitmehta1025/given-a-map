@@ -1,0 +1,69 @@
+diff --git a/agent.yaml b/agent.yaml
+index b2fe19a..8501ba5 100644
+--- a/agent.yaml
++++ b/agent.yaml
+@@ -9,9 +9,6 @@ tools:
+   - write_file
+   - get_status
+   - submit_patch
+-  - get_code_neighbors
+-  - search_similar_code
+-  - get_code_subgraph
+   - agent_tool:
+       config_path: sub_agents/code_analyzer.yaml
+       skip_summarization: true
+diff --git a/eval_config.yaml b/eval_config.yaml
+index ac12c29..b0e7e6d 100644
+--- a/eval_config.yaml
++++ b/eval_config.yaml
+@@ -2,6 +2,6 @@
+ # Controls per-task execution budgets and sandbox command timeouts.
+ evaluation:
+   timeout_seconds: 60
+-  max_tool_calls: 10
+-  max_time_minutes: 1
++  max_tool_calls: 100
++  max_time_minutes: 4
+   max_turns: 50
+diff --git a/prompts/analyzer.md b/prompts/analyzer.md
+index 5f3dd0e..0d5482d 100644
+--- a/prompts/analyzer.md
++++ b/prompts/analyzer.md
+@@ -1,7 +1,7 @@
+ You are a specialized code analysis sub-agent. Your role is to inspect repository source files, trace symbol relationships, and identify the root cause of the reported issue.
+ 
+ ## Instructions
+-1. Use `search_similar_code`, `get_code_neighbors`, `get_code_subgraph`, and `read_file` to locate the exact functions, classes, and line ranges involved in the bug.
++1. Use `read_file` to locate the exact functions, classes, and line ranges involved in the bug.
+ 2. Provide a concise, structured report containing:
+    - Exact file paths and line numbers to modify.
+    - Root cause explanation.
+diff --git a/prompts/system.md b/prompts/system.md
+index 12bd151..7482b62 100644
+--- a/prompts/system.md
++++ b/prompts/system.md
+@@ -8,7 +8,6 @@ Aim to understand, resolve, and submit the fix in the minimum number of tool cal
+ ### 1. Identify Target Files Immediately
+ - Extract filenames, functions, classes, CLI subcommands, or error messages directly from the problem statement.
+ - Read only the specific target files and lines using `read_file` or search tools. Do not wander across unrelated files.
+-- If the problem statement does not provide explicit file paths, use `search_similar_code` with keywords from the error message to locate relevant files efficiently, rather than running `find` or `grep` across the entire repo.
+ 
+ ### 2. Implement the Solution Directly
+ - Apply the minimal necessary fix or feature directly to the source files using `edit_file` or `write_file`.
+diff --git a/sub_agents/code_analyzer.yaml b/sub_agents/code_analyzer.yaml
+index 90ad9a2..9883a03 100644
+--- a/sub_agents/code_analyzer.yaml
++++ b/sub_agents/code_analyzer.yaml
+@@ -1,11 +1,8 @@
+ name: code_analyzer_agent
+-description: Analyzes repository source files and symbol graphs to locate root causes.
++description: Analyzes repository source files to locate root causes.
+ model: gemma-4-31b-it-qat-w4a16-ct
+ adapter: tool_lora
+ instruction: !include ../prompts/analyzer.md
+ tools:
+   - read_file
+-  - search_similar_code
+-  - get_code_neighbors
+-  - get_code_subgraph
+ generate_content_config: !include ../configs/sampling.yaml

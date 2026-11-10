@@ -1,0 +1,202 @@
+Run,Setup,Task,Failure category,Hit the limit?
+1,Grep only,rich_3930,Crash or tool error,No
+1,Graph + grep,rich_3930,"Found it, never edited",Yes
+1,Graph + grep,rich_3535,"Right place, wrong fix",Yes
+1,Grep only,rich_3535,"Right place, wrong fix",No
+1,Grep only,fastapi_14448,"Right place, wrong fix",Yes
+1,Graph + grep,fastapi_14448,"Found it, never edited",Yes
+1,Grep only,fastapi_9753,"Found it, never edited",Yes
+1,Graph + grep,rich_3777,"Right place, wrong fix",Yes
+1,Grep only,rich_3777,"Right place, wrong fix",Yes
+1,Grep only,rich_3676,"Right place, wrong fix",No
+1,Grep only,fastapi_14306,"Right place, wrong fix",Yes
+1,Graph + grep,fastapi_14306,"Found it, never edited",Yes
+1,Graph + grep,fastapi_15800,"Right place, wrong fix",Yes
+1,Grep only,fastapi_15800,"Found it, never edited",Yes
+1,Grep only,fastapi_14479,"Right place, wrong fix",No
+1,Graph + grep,fastapi_14479,"Right place, wrong fix",No
+1,Graph + grep,rich_4070,"Fixed it, broke something",Yes
+1,Grep only,rich_4070,"Fixed it, broke something",Yes
+1,Grep only,fastapi_14873,"Found it, never edited",Yes
+1,Graph + grep,fastapi_14873,"Found it, never edited",Yes
+1,Grep only,fastapi_15280,Crash or tool error,No
+1,Graph + grep,fastapi_15280,"Found it, never edited",Yes
+1,Graph + grep,fastapi_15588,"Right place, wrong fix",No
+1,Grep only,fastapi_15588,"Right place, wrong fix",No
+1,Graph + grep,rich_3471,"Found it, never edited",Yes
+1,Grep only,rich_3471,"Found it, never edited",Yes
+1,Grep only,rich_3180,"Found it, never edited",Yes
+1,Graph + grep,rich_3180,"Right place, wrong fix",Yes
+1,Grep only,fastapi_14419,"Found it, never edited",Yes
+1,Graph + grep,fastapi_14419,"Found it, never edited",Yes
+1,Graph + grep,rich_3675,"Right place, wrong fix",No
+1,Grep only,rich_3675,"Right place, wrong fix",Yes
+1,Graph + grep,fastapi_14986,"Right place, wrong fix",No
+1,Grep only,fastapi_14986,"Right place, wrong fix",Yes
+1,"Graph + grep, prompted",rich_3930,"Found it, never edited",Yes
+1,"Graph + grep, prompted",rich_3535,"Found it, never edited",Yes
+1,"Graph + grep, prompted",fastapi_14448,"Found it, never edited",Yes
+1,"Graph + grep, prompted",fastapi_9753,"Found it, never edited",Yes
+1,"Graph + grep, prompted",rich_3777,"Right place, wrong fix",Yes
+1,"Graph + grep, prompted",rich_3676,"Right place, wrong fix",No
+1,"Graph + grep, prompted",fastapi_14306,Edited the wrong place,Yes
+1,"Graph + grep, prompted",fastapi_15800,"Right place, wrong fix",Yes
+1,"Graph + grep, prompted",fastapi_14479,"Right place, wrong fix",No
+1,"Graph + grep, prompted",rich_4070,"Fixed it, broke something",Yes
+1,"Graph + grep, prompted",fastapi_14873,"Found it, never edited",Yes
+1,"Graph + grep, prompted",fastapi_15280,"Found it, never edited",Yes
+1,"Graph + grep, prompted",fastapi_15588,"Right place, wrong fix",No
+1,"Graph + grep, prompted",rich_3454,Crash or tool error,Yes
+1,"Graph + grep, prompted",rich_3471,"Found it, never edited",Yes
+1,"Graph + grep, prompted",rich_3180,"Found it, never edited",Yes
+1,"Graph + grep, prompted",fastapi_14419,Crash or tool error,No
+1,"Graph + grep, prompted",rich_3675,"Right place, wrong fix",No
+1,"Graph + grep, prompted",fastapi_14986,"Right place, wrong fix",Yes
+1,Graph required,rich_3930,Crash or tool error,No
+1,Graph required,rich_3535,Crash or tool error,No
+1,Graph required,fastapi_14448,"Found it, never edited",Yes
+1,Graph required,fastapi_9753,Never found the code,Yes
+1,Graph required,rich_3676,"Right place, wrong fix",Yes
+1,Graph required,rich_2725,"Found it, never edited",Yes
+1,Graph required,fastapi_14306,"Found it, never edited",Yes
+1,Graph required,fastapi_15800,"Found it, never edited",Yes
+1,Graph required,fastapi_14479,"Right place, wrong fix",No
+1,Graph required,rich_4070,"Fixed it, broke something",Yes
+1,Graph required,fastapi_15280,Crash or tool error,No
+1,Graph required,fastapi_15588,"Right place, wrong fix",Yes
+1,Graph required,rich_3471,"Found it, never edited",Yes
+1,Graph required,rich_3180,"Found it, never edited",Yes
+1,Graph required,fastapi_14419,"Found it, never edited",Yes
+1,Graph required,rich_3675,"Right place, wrong fix",No
+1,Graph required,fastapi_14986,"Right place, wrong fix",Yes
+2,"Graph + grep, prompted",fastapi_9753,Never found the code,Yes
+2,"Graph + grep, prompted",rich_3675,"Right place, wrong fix",No
+2,Graph + grep,rich_3675,"Right place, wrong fix",Yes
+2,Grep only,rich_3675,"Right place, wrong fix",No
+2,"Graph + grep, prompted",rich_3535,"Found it, never edited",Yes
+2,Graph + grep,rich_3535,"Right place, wrong fix",No
+2,Grep only,rich_3535,"Right place, wrong fix",No
+2,Grep only,rich_3930,"Right place, wrong fix",Yes
+2,Graph + grep,rich_3930,Crash or tool error,No
+2,"Graph + grep, prompted",rich_3930,"Found it, never edited",Yes
+2,"Graph + grep, prompted",rich_3471,"Found it, never edited",Yes
+2,Graph + grep,rich_3471,"Found it, never edited",Yes
+2,Grep only,rich_3471,"Found it, never edited",Yes
+2,"Graph + grep, prompted",rich_3777,"Right place, wrong fix",Yes
+2,Graph + grep,rich_3777,"Right place, wrong fix",Yes
+2,Grep only,rich_3777,Crash or tool error,No
+2,"Graph + grep, prompted",fastapi_15800,"Right place, wrong fix",Yes
+2,Graph + grep,fastapi_15800,"Right place, wrong fix",Yes
+2,Grep only,fastapi_15800,"Right place, wrong fix",No
+2,Graph + grep,rich_3676,"Right place, wrong fix",Yes
+2,"Graph + grep, prompted",rich_3676,"Right place, wrong fix",Yes
+2,"Graph + grep, prompted",fastapi_15280,"Found it, never edited",Yes
+2,Graph + grep,fastapi_15280,"Found it, never edited",Yes
+2,Grep only,fastapi_15280,Never found the code,Yes
+2,Grep only,fastapi_14448,"Right place, wrong fix",Yes
+2,Graph + grep,fastapi_14448,"Found it, never edited",Yes
+2,"Graph + grep, prompted",fastapi_14448,"Found it, never edited",Yes
+2,"Graph + grep, prompted",fastapi_14986,"Right place, wrong fix",Yes
+2,Graph + grep,fastapi_14986,"Found it, never edited",Yes
+2,Grep only,fastapi_14986,"Right place, wrong fix",Yes
+2,Grep only,fastapi_14306,"Found it, never edited",Yes
+2,Graph + grep,fastapi_14306,"Found it, never edited",Yes
+2,"Graph + grep, prompted",fastapi_14306,"Found it, never edited",Yes
+2,"Graph + grep, prompted",fastapi_14873,"Found it, never edited",Yes
+2,Graph + grep,fastapi_14873,"Found it, never edited",Yes
+2,Grep only,fastapi_14419,"Found it, never edited",Yes
+2,Graph + grep,fastapi_14419,"Found it, never edited",Yes
+2,"Graph + grep, prompted",fastapi_14419,Crash or tool error,No
+2,Grep only,rich_3180,"Found it, never edited",Yes
+2,Graph + grep,rich_3180,"Found it, never edited",Yes
+2,"Graph + grep, prompted",rich_3180,"Found it, never edited",Yes
+2,"Graph + grep, prompted",fastapi_15588,"Right place, wrong fix",Yes
+2,Graph + grep,fastapi_15588,"Right place, wrong fix",No
+2,Grep only,fastapi_15588,"Right place, wrong fix",No
+2,Grep only,fastapi_14479,"Right place, wrong fix",No
+2,Graph + grep,fastapi_14479,"Right place, wrong fix",No
+2,"Graph + grep, prompted",fastapi_14479,"Right place, wrong fix",No
+2,"Graph + grep, prompted",rich_4070,"Right place, wrong fix",Yes
+2,Graph + grep,rich_4070,"Right place, wrong fix",Yes
+2,Grep only,rich_4070,"Fixed it, broke something",Yes
+2,Graph required,fastapi_14463,Crash or tool error,Yes
+2,Graph required,fastapi_9753,Never found the code,Yes
+2,Graph required,rich_3675,"Right place, wrong fix",No
+2,Graph required,rich_3535,Crash or tool error,No
+2,Graph required,rich_3930,"Right place, wrong fix",Yes
+2,Graph required,rich_3471,"Found it, never edited",Yes
+2,Graph required,fastapi_13537,"Found it, never edited",Yes
+2,Graph required,rich_3777,"Found it, never edited",Yes
+2,Graph required,fastapi_15800,"Right place, wrong fix",Yes
+2,Graph required,rich_3676,"Right place, wrong fix",No
+2,Graph required,fastapi_15280,"Found it, never edited",Yes
+2,Graph required,fastapi_14448,"Found it, never edited",Yes
+2,Graph required,fastapi_14986,Crash or tool error,No
+2,Graph required,fastapi_14306,Edited the wrong place,Yes
+2,Graph required,fastapi_14419,Crash or tool error,No
+2,Graph required,rich_3180,"Found it, never edited",Yes
+2,Graph required,fastapi_15588,"Right place, wrong fix",No
+2,Graph required,fastapi_14479,"Right place, wrong fix",No
+2,Graph required,rich_4070,"Fixed it, broke something",Yes
+3,"Graph + grep, prompted",fastapi_14306,"Right place, wrong fix",Yes
+3,Graph + grep,fastapi_14306,"Right place, wrong fix",Yes
+3,Grep only,fastapi_14306,"Right place, wrong fix",Yes
+3,Grep only,rich_4070,"Fixed it, broke something",Yes
+3,Graph + grep,rich_4070,"Fixed it, broke something",Yes
+3,"Graph + grep, prompted",rich_4070,"Fixed it, broke something",Yes
+3,Grep only,rich_3676,"Right place, wrong fix",No
+3,"Graph + grep, prompted",rich_3676,"Right place, wrong fix",No
+3,"Graph + grep, prompted",rich_3675,"Right place, wrong fix",Yes
+3,Graph + grep,rich_3675,"Right place, wrong fix",No
+3,Grep only,rich_3675,"Right place, wrong fix",No
+3,Graph + grep,rich_2725,"Found it, never edited",Yes
+3,Grep only,rich_3930,"Found it, never edited",Yes
+3,Graph + grep,rich_3930,"Found it, never edited",Yes
+3,"Graph + grep, prompted",rich_3930,"Found it, never edited",Yes
+3,Graph + grep,fastapi_14873,"Found it, never edited",Yes
+3,Grep only,fastapi_14448,"Right place, wrong fix",Yes
+3,Graph + grep,fastapi_14448,"Found it, never edited",Yes
+3,"Graph + grep, prompted",fastapi_14448,Edited the wrong place,Yes
+3,Grep only,rich_3535,"Right place, wrong fix",No
+3,Graph + grep,rich_3535,"Right place, wrong fix",Yes
+3,"Graph + grep, prompted",rich_3535,"Right place, wrong fix",No
+3,"Graph + grep, prompted",rich_3180,"Found it, never edited",Yes
+3,Graph + grep,rich_3180,"Found it, never edited",Yes
+3,Grep only,rich_3180,"Found it, never edited",Yes
+3,"Graph + grep, prompted",fastapi_15800,"Found it, never edited",Yes
+3,Graph + grep,fastapi_15800,"Right place, wrong fix",Yes
+3,Grep only,fastapi_15800,"Right place, wrong fix",Yes
+3,"Graph + grep, prompted",fastapi_14986,"Right place, wrong fix",No
+3,Graph + grep,fastapi_14986,"Right place, wrong fix",Yes
+3,Grep only,fastapi_14986,"Right place, wrong fix",Yes
+3,Grep only,fastapi_15280,"Found it, never edited",Yes
+3,Graph + grep,fastapi_15280,"Found it, never edited",Yes
+3,"Graph + grep, prompted",fastapi_15280,"Found it, never edited",Yes
+3,"Graph + grep, prompted",fastapi_14479,"Right place, wrong fix",No
+3,Graph + grep,fastapi_14479,"Right place, wrong fix",No
+3,Grep only,fastapi_14479,"Right place, wrong fix",No
+3,Grep only,fastapi_14419,"Found it, never edited",Yes
+3,Graph + grep,fastapi_14419,"Found it, never edited",Yes
+3,"Graph + grep, prompted",fastapi_14419,"Found it, never edited",Yes
+3,Grep only,rich_3777,"Right place, wrong fix",Yes
+3,Grep only,fastapi_15588,"Right place, wrong fix",No
+3,Graph + grep,fastapi_15588,"Right place, wrong fix",No
+3,"Graph + grep, prompted",fastapi_15588,"Found it, never edited",Yes
+3,"Graph + grep, prompted",rich_3471,"Found it, never edited",Yes
+3,Graph + grep,rich_3471,"Found it, never edited",Yes
+3,Grep only,rich_3471,"Found it, never edited",Yes
+3,Graph required,fastapi_14306,"Found it, never edited",Yes
+3,Graph required,rich_4070,"Right place, wrong fix",Yes
+3,Graph required,rich_3675,"Right place, wrong fix",No
+3,Graph required,rich_2725,"Found it, never edited",Yes
+3,Graph required,rich_3930,Crash or tool error,No
+3,Graph required,fastapi_14448,Crash or tool error,No
+3,Graph required,rich_3535,"Right place, wrong fix",Yes
+3,Graph required,rich_3180,"Found it, never edited",Yes
+3,Graph required,fastapi_15800,"Right place, wrong fix",Yes
+3,Graph required,fastapi_14986,"Right place, wrong fix",Yes
+3,Graph required,fastapi_15280,"Found it, never edited",Yes
+3,Graph required,fastapi_14479,"Right place, wrong fix",No
+3,Graph required,fastapi_14419,Crash or tool error,No
+3,Graph required,fastapi_15588,"Right place, wrong fix",Yes
+3,Graph required,rich_3471,"Found it, never edited",Yes

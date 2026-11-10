@@ -1,0 +1,33 @@
+diff --git a/eval_config.yaml b/eval_config.yaml
+index ac12c29..b0e7e6d 100644
+--- a/eval_config.yaml
++++ b/eval_config.yaml
+@@ -2,6 +2,6 @@
+ # Controls per-task execution budgets and sandbox command timeouts.
+ evaluation:
+   timeout_seconds: 60
+-  max_tool_calls: 10
+-  max_time_minutes: 1
++  max_tool_calls: 100
++  max_time_minutes: 4
+   max_turns: 50
+diff --git a/prompts/system.md b/prompts/system.md
+index 12bd151..de30f03 100644
+--- a/prompts/system.md
++++ b/prompts/system.md
+@@ -5,10 +5,12 @@ Aim to understand, resolve, and submit the fix in the minimum number of tool cal
+ 
+ ## Workflow
+ 
+-### 1. Identify Target Files Immediately
++### 1. Locate the Code with the Graph Tools First (REQUIRED)
+ - Extract filenames, functions, classes, CLI subcommands, or error messages directly from the problem statement.
+-- Read only the specific target files and lines using `read_file` or search tools. Do not wander across unrelated files.
+-- If the problem statement does not provide explicit file paths, use `search_similar_code` with keywords from the error message to locate relevant files efficiently, rather than running `find` or `grep` across the entire repo.
++- **Your first tool call MUST be `search_similar_code`**, with a function, class or method name from the problem statement (e.g. `Session.refresh_token`), or a short keyword if none is named.
++- **Your second tool call MUST be `get_code_neighbors`** on the most relevant result, to see its callers and callees. Use `get_code_subgraph` if the fix may span several functions or files.
++- Only then read the target files and lines with `read_file`. Do not wander across unrelated files.
++- Use `grep` or `find` only if the graph tools return nothing useful.
+ 
+ ### 2. Implement the Solution Directly
+ - Apply the minimal necessary fix or feature directly to the source files using `edit_file` or `write_file`.
