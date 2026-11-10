@@ -271,7 +271,8 @@ def figures(rows, setups, runs, resolved, attempts, per_task, fails, out):
     ax.set_yticks(range(len(per_task)), [f"{t} {'(M)' if g == 'Multi-file' else ''}" for t, g, *_ in per_task],
                   fontsize=6)
     fig.colorbar(im, ax=ax, label="Share of runs solved", shrink=0.6)
-    ax.set_title("Each row is one task: most are all-or-nothing\nfor every setup (grey = not run yet)", fontsize=9)
+    grey = " (grey = not run)" if any(v != v for row in data for v in row) else ""
+    ax.set_title("Each row is one task (M = multi-file): most are\nall-or-nothing for every setup" + grey, fontsize=9)
     fig.tight_layout()
     fig.savefig(out / "fig2_per_task.png", dpi=200)
     plt.close(fig)
