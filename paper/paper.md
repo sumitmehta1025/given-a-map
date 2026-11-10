@@ -157,7 +157,7 @@ Graph blind spots (such as missed `self.` calls) don't explain our result. The r
 
 ## 7. Reproducibility
 
-Code: https://github.com/sumitmehta1025/given-a-map (Apache 2.0). It holds the run script and Kaggle notebook, the 4 setups as diffs against the official sample, task selection (seed 20261016), the solvability check, the trace analyzer, the script behind every table and figure, the per-attempt table, and the locked plan with its change log. Raw traces are withheld: they contain competition data.
+Code: https://github.com/sumitmehta1025/given-a-map (Apache 2.0). It holds the run script and Kaggle notebook, the 4 setups as diffs against the official sample, task selection (seed 20261016), the solvability check, the trace analyzer, the script behind every table and figure, the per-attempt table, and the locked plan with its change log. Raw traces are withheld: they contain competition data. Claude (Anthropic) assisted with analysis code and drafting.
 
 ## References
 
