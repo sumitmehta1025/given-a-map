@@ -263,16 +263,17 @@ def figures(rows, setups, runs, resolved, attempts, per_task, fails, out):
             v = [r["ok"] for r in rows if r["task"] == t and r["s"] == s]
             row.append(sum(v) / len(v) if v else float("nan"))
         data.append(row)
-    fig, ax = plt.subplots(figsize=(4.2, 7))
+    # Landscape (setups as rows, tasks as columns) so it fits a page's width
+    fig, ax = plt.subplots(figsize=(10, 3.4))
     cmap_tasks = plt.get_cmap("Greens").copy()
     cmap_tasks.set_bad("#d9d9d9")  # not run yet
-    im = ax.imshow(data, cmap=cmap_tasks, vmin=0, vmax=1, aspect="auto")
-    ax.set_xticks(range(len(setups)), setups)
-    ax.set_yticks(range(len(per_task)), [f"{t} {'(M)' if g == 'Multi-file' else ''}" for t, g, *_ in per_task],
-                  fontsize=6)
-    fig.colorbar(im, ax=ax, label="Share of runs solved", shrink=0.6)
+    im = ax.imshow(list(map(list, zip(*data))), cmap=cmap_tasks, vmin=0, vmax=1, aspect="auto")
+    ax.set_yticks(range(len(setups)), setups)
+    ax.set_xticks(range(len(per_task)), [f"{t}{' (M)' if g == 'Multi-file' else ''}" for t, g, *_ in per_task],
+                  fontsize=7, rotation=60, ha="right", rotation_mode="anchor")
+    fig.colorbar(im, ax=ax, label="Share of runs solved", fraction=0.025, pad=0.01)
     grey = " (grey = not run)" if any(v != v for row in data for v in row) else ""
-    ax.set_title("Each row is one task (M = multi-file): most are\nall-or-nothing for every setup" + grey, fontsize=9)
+    ax.set_title("Each column is one task (M = multi-file): most are all-or-nothing for every setup" + grey, fontsize=10)
     fig.tight_layout()
     fig.savefig(out / "fig2_per_task.png", dpi=200)
     plt.close(fig)

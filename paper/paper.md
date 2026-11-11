@@ -100,7 +100,7 @@ Compared with A, B's difference per run is +2, −2, 0; C's is −1, −3, +1; D
 Over 12 attempts per task (4 setups × 3 runs), 14 of 26 tasks were never solved, 4 were always solved, and only 8 were mixed (Figure 2). In a variance decomposition of the 0/1 outcomes, **which task it is explains 77% of the variation; which setup, 0.1%**. Multi-file tasks are much harder for every setup: 20 of 156 attempts resolved, against 91 of 156 single-file attempts.
 
 ![Figure 2](fig2_per_task.png)
-*Figure 2. Share of runs solved, per task (rows) and setup (columns). (M) marks multi-file tasks.*
+*Figure 2. Share of runs solved, per task (columns) and setup (rows). (M) marks multi-file tasks.*
 
 ### 4.3 Failures happen after the code is found
 
